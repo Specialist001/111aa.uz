@@ -60,7 +60,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-2 col-md-2">
-                <?php include 'application/views/'.$content_view; ?>
+                <?php include 'application/views/sidebar_view.php' ?>
             </div>
             <div class="col-lg-8 col-md-8">
                 <div class="box"><?php include 'application/views/'.$content_view; ?></div>

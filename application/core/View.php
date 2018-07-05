@@ -17,8 +17,8 @@ class View
         include 'application/views/'.$template_view;
     }
 
-    function generateSidebar($sidebar_content_view, $sidebar_view, $data = null)
+    function generateSidebar($sidebar_content_view, $template_view, $data = null)
     {
-        include 'application/views/'.$sidebar_view;
+        include 'application/views/'.$template_view;
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-class Controller_Sidebar
+class Controller_Sidebar extends Controller
 {
     function action_index()
     {
