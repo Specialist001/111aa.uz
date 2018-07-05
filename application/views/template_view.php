@@ -8,12 +8,14 @@
         <title>Главная</title>
         <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
         <link href="http://fonts.googleapis.com/css?family=Kreon" rel="stylesheet" type="text/css" />
-        <!--<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />-->
+        <!--<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" />-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <!--<link rel="stylesheet" type="text/css" href="/css/style.css" /> -->
-        <script src="/js/jquery.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="/assets/css/style-nav.css">
+        <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+        <!--<link rel="stylesheet" type="text/css" href="/assets/css/style.css" /> -->
+        <script src="/assets/js/jquery.min.js" type="text/javascript"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <!--<script src="/js/bootstrap.min.js" type="text/javascript"></script>-->
+        <!--<script src="/assets/js/bootstrap.min.js" type="text/javascript"></script>-->
         <style>
             /* Remove the navbar's default margin-bottom and rounded borders */
             .navbar {
@@ -37,7 +39,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">WebSiteName</a>
+                <a class="navbar-brand" href="/">MVC</a>
             </div>
             <!--<div class="navbar-header">
                 <a class="navbar-brand" href="/">WebSiteName</a>
@@ -52,6 +54,7 @@
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li><a href="/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
                 </ul>
             </div>
         </div>
