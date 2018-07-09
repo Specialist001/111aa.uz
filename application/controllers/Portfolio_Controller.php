@@ -1,6 +1,6 @@
 <?php
 
-class Controller_Portfolio extends Controller
+class Portfolio_Controller extends Controller
 {
     function __construct()
     {
@@ -11,6 +11,6 @@ class Controller_Portfolio extends Controller
     function action_index()
     {
         $data = $this->model->get_data();
-        $this->view->generate('portfolio_view.php', 'template_view.php', $data);
+        $this->view->generate('Portfolio_view.php', 'Template_view.php', $data);
     }
 }

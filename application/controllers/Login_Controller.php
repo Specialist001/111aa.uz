@@ -1,6 +1,6 @@
 <?php
 
-class Controller_Login extends Controller
+class Login_Controller extends Controller
 {
     function action_index()
     {
@@ -24,6 +24,6 @@ class Controller_Login extends Controller
             $data["login_status"] = "";
         }
 
-        $this->view->generate('login_view.php', 'template_view.php', $data);
+        $this->view->generate('Login_view.php', 'Template_view.php', $data);
     }
 }
