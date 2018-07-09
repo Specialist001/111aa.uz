@@ -103,6 +103,28 @@
     <section id="works" class="works section no-padding">
         <div class="container-fluid">
             <div class="row no-gutter">
+                    <?php
+                        for ($i=1; $i<=8; $i++ ) {
+                            echo '
+                            <div class="col-lg-3 col-md-6 col-sm-6 work">
+                            <a href="/assets/images/work-'.$i.'.jpg" class="work-box">
+                            <img src="/assets/images/work-'.$i.'.jpg" alt="">
+                            <div class="overlay">
+                            <div class="overlay-caption">
+                                <h5>Project Name</h5>
+                                <p>Website Design</p>
+                            </div>
+                            </div><!-- overlay -->
+                            </a>
+                            </div>
+                            ';
+                        }
+                    ?>
+            </div>
+            <hr>
+
+
+            <div class="row no-gutter">
                 <div class="col-lg-3 col-md-6 col-sm-6 work">
                     <a href="/assets/images/work-1.jpg" class="work-box">
                         <img src="/assets/images/work-1.jpg" alt="">
