@@ -7,6 +7,7 @@ class Controller
 
     function __construct()
     {
+        //$this->model = new Model_Portfolio();
         $this->view = new View();
     }
 
